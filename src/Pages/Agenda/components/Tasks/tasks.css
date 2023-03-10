@@ -1,0 +1,115 @@
+.tasksIncomplet{
+    background-color: #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 30px;
+    border-radius: 10px 10px 0 0px;
+    font-weight: 400;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #3ef806;
+    border-color: #000;
+  }
+
+  .containerTaskIncomplet{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .containerTaskIncomplet .taskIncomplet {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    }
+
+    .containerTaskIncomplet .taskIncomplet div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .containerTaskIncomplet .taskIncomplet div button{
+        height: 20px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .inputText{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .inputText textarea{
+        width: 50%;
+        height: 80px;
+        border-radius: 10px;
+        background-color: #dadada;
+    }
+
+    .radioInput{
+        margin-top: -10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .inputText button{
+        margin-top: -10px;
+        width: 40%;
+        height: 30px;
+        background-color: #a3fa88;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+
+    .containerTasks{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        flex-wrap: wrap;
+    }
+
+    .task{
+        max-width: 40%;
+        background-color: #cecece;
+        color: #000;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin: 10px;
+    }
+    .title-task{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+    
+   
